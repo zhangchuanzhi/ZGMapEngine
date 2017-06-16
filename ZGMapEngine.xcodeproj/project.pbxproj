@@ -13,6 +13,12 @@
 		235E8B2B1EF230A2002BD7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235E8B291EF230A2002BD7FF /* Main.storyboard */; };
 		235E8B2D1EF230A2002BD7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235E8B2C1EF230A2002BD7FF /* Assets.xcassets */; };
 		235E8B301EF230A2002BD7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235E8B2E1EF230A2002BD7FF /* LaunchScreen.storyboard */; };
+		237F1EB41EF37D030016B9F4 /* ZGBaiduMapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 237F1EB31EF37D030016B9F4 /* ZGBaiduMapFactory.m */; };
+		237F1EB71EF37D1F0016B9F4 /* ZGGaoDeMapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 237F1EB61EF37D1F0016B9F4 /* ZGGaoDeMapFactory.m */; };
+		237F1EBA1EF380430016B9F4 /* ZGMapEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 237F1EB91EF380430016B9F4 /* ZGMapEngine.m */; };
+		23EC7CCE1EF253A500B3AA4E /* ZGBaiduMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EC7CCD1EF253A500B3AA4E /* ZGBaiduMapView.m */; };
+		23EC7CD11EF253C100B3AA4E /* ZGGaoDeMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EC7CD01EF253C100B3AA4E /* ZGGaoDeMapView.m */; };
+		AE051F7FAC0591631DDE3881 /* libPods-ZGMapEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8770F866F7C2606E2A2682 /* libPods-ZGMapEngine.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,22 @@
 		235E8B2C1EF230A2002BD7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235E8B2F1EF230A2002BD7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		235E8B311EF230A2002BD7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235E8B371EF23105002BD7FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		237F1EB11EF37BE90016B9F4 /* ZGMapFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGMapFactoryProtocol.h; sourceTree = "<group>"; };
+		237F1EB21EF37D030016B9F4 /* ZGBaiduMapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGBaiduMapFactory.h; sourceTree = "<group>"; };
+		237F1EB31EF37D030016B9F4 /* ZGBaiduMapFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGBaiduMapFactory.m; sourceTree = "<group>"; };
+		237F1EB51EF37D1F0016B9F4 /* ZGGaoDeMapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGGaoDeMapFactory.h; sourceTree = "<group>"; };
+		237F1EB61EF37D1F0016B9F4 /* ZGGaoDeMapFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGGaoDeMapFactory.m; sourceTree = "<group>"; };
+		237F1EB81EF380430016B9F4 /* ZGMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGMapEngine.h; sourceTree = "<group>"; };
+		237F1EB91EF380430016B9F4 /* ZGMapEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGMapEngine.m; sourceTree = "<group>"; };
+		23EC7CCB1EF23E9500B3AA4E /* ZGMapViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGMapViewProtocol.h; sourceTree = "<group>"; };
+		23EC7CCC1EF253A500B3AA4E /* ZGBaiduMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGBaiduMapView.h; sourceTree = "<group>"; };
+		23EC7CCD1EF253A500B3AA4E /* ZGBaiduMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGBaiduMapView.m; sourceTree = "<group>"; };
+		23EC7CCF1EF253C100B3AA4E /* ZGGaoDeMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGGaoDeMapView.h; sourceTree = "<group>"; };
+		23EC7CD01EF253C100B3AA4E /* ZGGaoDeMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGGaoDeMapView.m; sourceTree = "<group>"; };
+		CB295649E218C4BC8E2E0DAE /* Pods-ZGMapEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGMapEngine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGMapEngine/Pods-ZGMapEngine.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8770F866F7C2606E2A2682 /* libPods-ZGMapEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZGMapEngine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC3F9069FE8FB43D9118EAD /* Pods-ZGMapEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGMapEngine.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGMapEngine/Pods-ZGMapEngine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE051F7FAC0591631DDE3881 /* libPods-ZGMapEngine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				235E8B1F1EF230A2002BD7FF /* ZGMapEngine */,
 				235E8B1E1EF230A2002BD7FF /* Products */,
+				545CE8B2075A4A02D7FC3B9B /* Pods */,
+				58BE7AF704EFEEC9A9C98E16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +83,11 @@
 		235E8B1F1EF230A2002BD7FF /* ZGMapEngine */ = {
 			isa = PBXGroup;
 			children = (
+				23EC7CCA1EF23E7900B3AA4E /* BaseMap */,
 				235E8B231EF230A2002BD7FF /* AppDelegate.h */,
 				235E8B241EF230A2002BD7FF /* AppDelegate.m */,
 				235E8B261EF230A2002BD7FF /* ViewController.h */,
 				235E8B271EF230A2002BD7FF /* ViewController.m */,
-				235E8B291EF230A2002BD7FF /* Main.storyboard */,
-				235E8B2C1EF230A2002BD7FF /* Assets.xcassets */,
-				235E8B2E1EF230A2002BD7FF /* LaunchScreen.storyboard */,
-				235E8B311EF230A2002BD7FF /* Info.plist */,
 				235E8B201EF230A2002BD7FF /* Supporting Files */,
 			);
 			path = ZGMapEngine;
@@ -74,9 +96,50 @@
 		235E8B201EF230A2002BD7FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				235E8B291EF230A2002BD7FF /* Main.storyboard */,
+				235E8B2C1EF230A2002BD7FF /* Assets.xcassets */,
+				235E8B2E1EF230A2002BD7FF /* LaunchScreen.storyboard */,
+				235E8B311EF230A2002BD7FF /* Info.plist */,
 				235E8B211EF230A2002BD7FF /* main.m */,
+				235E8B371EF23105002BD7FF /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23EC7CCA1EF23E7900B3AA4E /* BaseMap */ = {
+			isa = PBXGroup;
+			children = (
+				23EC7CCB1EF23E9500B3AA4E /* ZGMapViewProtocol.h */,
+				23EC7CCF1EF253C100B3AA4E /* ZGGaoDeMapView.h */,
+				23EC7CD01EF253C100B3AA4E /* ZGGaoDeMapView.m */,
+				23EC7CCC1EF253A500B3AA4E /* ZGBaiduMapView.h */,
+				23EC7CCD1EF253A500B3AA4E /* ZGBaiduMapView.m */,
+				237F1EB11EF37BE90016B9F4 /* ZGMapFactoryProtocol.h */,
+				237F1EB51EF37D1F0016B9F4 /* ZGGaoDeMapFactory.h */,
+				237F1EB61EF37D1F0016B9F4 /* ZGGaoDeMapFactory.m */,
+				237F1EB21EF37D030016B9F4 /* ZGBaiduMapFactory.h */,
+				237F1EB31EF37D030016B9F4 /* ZGBaiduMapFactory.m */,
+				237F1EB81EF380430016B9F4 /* ZGMapEngine.h */,
+				237F1EB91EF380430016B9F4 /* ZGMapEngine.m */,
+			);
+			path = BaseMap;
+			sourceTree = "<group>";
+		};
+		545CE8B2075A4A02D7FC3B9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB295649E218C4BC8E2E0DAE /* Pods-ZGMapEngine.debug.xcconfig */,
+				FEC3F9069FE8FB43D9118EAD /* Pods-ZGMapEngine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58BE7AF704EFEEC9A9C98E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8770F866F7C2606E2A2682 /* libPods-ZGMapEngine.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 235E8B341EF230A2002BD7FF /* Build configuration list for PBXNativeTarget "ZGMapEngine" */;
 			buildPhases = (
+				16666557AC070CAA2B023A60 /* [CP] Check Pods Manifest.lock */,
 				235E8B191EF230A2002BD7FF /* Sources */,
 				235E8B1A1EF230A2002BD7FF /* Frameworks */,
 				235E8B1B1EF230A2002BD7FF /* Resources */,
+				DB58B0053E13E38512475BED /* [CP] Embed Pods Frameworks */,
+				30CB077FB9A0413F4C72EDBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +176,7 @@
 				TargetAttributes = {
 					235E8B1C1EF230A2002BD7FF = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RAJ2TC584R;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,6 +212,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16666557AC070CAA2B023A60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30CB077FB9A0413F4C72EDBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGMapEngine/Pods-ZGMapEngine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB58B0053E13E38512475BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGMapEngine/Pods-ZGMapEngine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		235E8B191EF230A2002BD7FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -152,6 +267,11 @@
 			files = (
 				235E8B281EF230A2002BD7FF /* ViewController.m in Sources */,
 				235E8B251EF230A2002BD7FF /* AppDelegate.m in Sources */,
+				23EC7CCE1EF253A500B3AA4E /* ZGBaiduMapView.m in Sources */,
+				237F1EB71EF37D1F0016B9F4 /* ZGGaoDeMapFactory.m in Sources */,
+				23EC7CD11EF253C100B3AA4E /* ZGGaoDeMapView.m in Sources */,
+				237F1EBA1EF380430016B9F4 /* ZGMapEngine.m in Sources */,
+				237F1EB41EF37D030016B9F4 /* ZGBaiduMapFactory.m in Sources */,
 				235E8B221EF230A2002BD7FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,23 +392,37 @@
 		};
 		235E8B351EF230A2002BD7FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB295649E218C4BC8E2E0DAE /* Pods-ZGMapEngine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RAJ2TC584R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGMapEngine/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGMapEngine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGMapEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		235E8B361EF230A2002BD7FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC3F9069FE8FB43D9118EAD /* Pods-ZGMapEngine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RAJ2TC584R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGMapEngine/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGMapEngine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGMapEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -311,6 +445,7 @@
 				235E8B361EF230A2002BD7FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

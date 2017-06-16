@@ -7,22 +7,24 @@
 //
 
 #import "ViewController.h"
-
+#import "ZGMapViewProtocol.h"
+#import "ZGMapEngine.h"
 @interface ViewController ()
-
+@property(nonatomic,strong)UIView*mMapView;
+@property(nonatomic,strong)ZGMapEngine*engine;
+@property(nonatomic,strong)id<ZGMapFactoryProtocol>factory;
+@property(nonatomic,strong)id<ZGMapViewProtocol>mapView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.engine=[[ZGMapEngine alloc]init];
+    self.factory=[self.engine getMapFactory];
+    self.mapView=[self.factory  getMapView:self.view.bounds];
+    self.mMapView=[self.mapView getMapView];
+    [self.view addSubview:self.mMapView];
 }
 
 
